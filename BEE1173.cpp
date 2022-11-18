@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int n[10];
+    int i = 0, j = 0, soma = 1;
+
+    cin >> n[0];
+
+    for(i = 0; i < 10; i++){
+
+        if(i>0){
+        	n[i] = n[i-1]*2;
+        	
+		}
+		cout << "N[" << i <<"] = " << n[i] << endl;
+    }
+
+    return 0;
+}
